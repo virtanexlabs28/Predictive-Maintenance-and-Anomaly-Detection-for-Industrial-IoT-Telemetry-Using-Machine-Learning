@@ -380,11 +380,16 @@ function readCsv(relativePath) {
 
 const format = {
   // fixed number of decimals; a true minus sign for negative values
-  fixed: (value, decimals = 2) => (value === "" || value === undefined ? "" : Number(value).toFixed(decimals).replace("-", "−")),
+  fixed: (value, decimals = 2) => {
+    if (value === "" || value === undefined) return "";
+    const text = Number(value).toFixed(decimals);
+    return Number(text) === 0 ? (0).toFixed(decimals) : text.replace("-", "−");   // never print "-0.00"
+  },
   // fixed decimals with an explicit plus sign for positive values
   signed: (value, decimals = 2) => {
-    const number = Number(value);
-    return (number > 0 ? "+" : "") + number.toFixed(decimals).replace("-", "−");
+    const text = Number(value).toFixed(decimals);
+    if (Number(text) === 0) return (0).toFixed(decimals);
+    return (Number(text) > 0 ? "+" : "") + text.replace("-", "−");
   },
   // whole number with thousands separators
   count: (value) => Math.round(Number(value)).toLocaleString("en-US"),

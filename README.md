@@ -105,6 +105,10 @@ The chapters are Word files in `reports/thesis/`. They are built from content fi
 cd reports\thesis\build
 npm install
 node chapter3.js
+node chapter4.js
+node chapter2.js
+node chapter1.js
+node chapter5.js
 ```
 
 `reports/thesis/reference_verification.md` records how each cited reference was checked.

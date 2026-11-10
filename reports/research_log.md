@@ -691,3 +691,63 @@ university requires another style. Writing order: Chapters 3, 4, 2, 1, 5.
 - Software table lists only libraries the code uses directly. Seaborn and SciPy are
   installed but not called by the project code, so they are not listed.
 - Layout checked page by page in the Word-generated PDF; equations render correctly.
+
+### Chapter 4 - Results and Analysis (2026-11-10)
+
+- File: `reports/thesis/Chapter_4_Results_and_Analysis.docx`; 23 pages, about 6,700 words
+  including tables; 7 sections, 17 tables, 9 figures, no external references.
+- Every table is filled by the build script from `results/tables/thesis/*.csv`, so no
+  table value was typed by hand. Numbers quoted in the running text were checked one by
+  one against those files.
+- Result files added so that every statement in the chapter can be reproduced:
+  - `results/metrics/phase6_design_check_warm_up.csv` and `phase6_design_check_sensors.csv`:
+    the cross-validation evidence (training engines only) for the warm-up rule and for
+    keeping sensors s6, s10 and s16. These had been computed during Phase 6 but not saved.
+    `python -m src.anomaly_detection` now writes them (run time about 105 seconds).
+  - Thesis tables 11 to 20 in `results/tables/thesis/` (data quality, per-sensor
+    exploration, input signal, tuning range, alarm zones, alarm-budget sensitivity, the two
+    design checks, predictions above the cap, alarm rate by remaining life).
+- Corrections to earlier wording, made while checking the chapter against the data:
+  - Share of healthy test cycles flagged is 2.7% to 4.8%, "at or below" the 5% budget
+    (the Phase 6 entry said "close to").
+  - Inside the reference zone at least 92% of cycles are flagged in every 10-cycle bin of
+    the four working cases (lowest value 92.8%).
+- Structure follows the thesis brief: exploration, RUL prediction, anomaly detection,
+  model comparison, feature representation and preprocessing comparison, FD001 vs FD002,
+  summary.
+
+### Chapter 2 - Literature Review (2026-11-10)
+
+- File: `reports/thesis/Chapter_2_Literature_Review.docx`; 14 pages, about 5,800 words
+  including references; 10 sections, 2 tables, 35 references.
+- Sources were found and checked with `build/lookup_reference.py` (Crossref for
+  bibliographic details; OpenAlex and Semantic Scholar for abstracts) and by reading open
+  full texts where available. `reports/thesis/reference_verification.md` is now generated
+  from `build/references.json` by `node make_verification_log.js` and lists every
+  reference with how it was checked.
+- Depth of checking: full text read for 5 sources (Saxena et al. 2008, Ramasso and Saxena
+  2014, Laredo et al. 2019 preprint, Hou et al. 2020, Goel et al. 2026); abstract only for
+  most others; 2 sources (Li et al. 2018, Babu et al. 2016) not read and described only
+  through other papers. Statements are limited accordingly.
+- Table 2.1 (reported RMSE of earlier studies) takes four rows from the comparison table of
+  Hou et al. (2020), not from the original papers; the table note states this.
+- Five research gaps are stated with respect to the reviewed sources only, and Table 2.2
+  maps each to how the study addresses it.
+### Chapters 1 and 5 (2026-11-10)
+
+- Files: `reports/thesis/Chapter_1_Introduction.docx` (6 pages, 8 sections, 10 references)
+  and `reports/thesis/Chapter_5_Discussion_and_Conclusion.docx` (10 pages, 7 sections,
+  1 table, 8 references). No new sources: both cite only references already verified.
+- Chapter 1 states five research objectives derived from the thesis brief and gives the
+  two research questions word for word.
+- Chapter 5: Table 5.1 is computed by the build script from
+  `results/tables/thesis/table10_dataset_comparison.csv`. The comparison with the
+  literature states that the conventions of the published studies could not be confirmed,
+  so no claim of outperforming them is made.
+- All five chapters now exist as separate Word files. Not yet done: one combined document
+  with title page, abstract, table of contents, lists of figures and tables, and a single
+  reference list with unified numbering.
+
+- Useful for Chapter 5: published FD002 errors are larger than FD001 errors in every
+  reviewed study (19.5 to 30.3 against 10.7 to 18.5), and the conventions behind those
+  numbers differ, so comparison with this thesis must be made with care.
