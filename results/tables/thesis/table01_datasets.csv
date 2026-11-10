@@ -1,0 +1,5 @@
+subset,operating_conditions,fault_mode,split,engines,rows,min_cycles,mean_cycles,max_cycles
+FD001,1,HPC degradation,train,100,20631,128,206.3,362
+FD001,1,HPC degradation,test,100,13096,31,131,303
+FD002,6,HPC degradation,train,260,53759,128,206.8,378
+FD002,6,HPC degradation,test,259,33991,21,131.2,367

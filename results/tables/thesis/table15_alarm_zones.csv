@@ -1,0 +1,7 @@
+data,representation,alarms,alarms_healthy_percent,alarms_transition_percent,alarms_near_failure_percent,healthy_cycles_flagged_percent
+FD001,Raw sensors,1692,22.8132,57.8605,19.3262,4.8004
+FD001,Summary statistics,1832,19.9782,61.8996,18.1223,4.55167
+FD002 dataset-wide,Raw sensors,4075,23.092,56.9816,19.9264,4.54545
+FD002 dataset-wide,Summary statistics,1350,51.4074,42.2963,6.2963,3.35233
+FD002 per-condition,Raw sensors,5328,18.2245,62.2185,19.5571,4.69037
+FD002 per-condition,Summary statistics,5642,9.97873,71.3577,18.6636,2.71954

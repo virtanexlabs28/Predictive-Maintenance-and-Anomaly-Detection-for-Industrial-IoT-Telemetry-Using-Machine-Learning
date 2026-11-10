@@ -1,0 +1,13 @@
+data,representation,model,selected_settings,cv_rmse_mean,cv_rmse_std
+FD001,Raw sensors,Random Forest,"max_features=sqrt, min_samples_leaf=5",18.5361,0.72824
+FD001,Raw sensors,XGBoost,"max_depth=3, learning_rate=0.05",18.6504,0.673585
+FD001,Summary statistics,Random Forest,"max_features=sqrt, min_samples_leaf=5",17.3184,0.600164
+FD001,Summary statistics,XGBoost,"max_depth=5, learning_rate=0.05",17.1058,0.900091
+FD002 dataset-wide,Raw sensors,Random Forest,"max_features=sqrt, min_samples_leaf=5",19.5253,0.715986
+FD002 dataset-wide,Raw sensors,XGBoost,"max_depth=7, learning_rate=0.05",19.695,0.777765
+FD002 dataset-wide,Summary statistics,Random Forest,"max_features=0.33, min_samples_leaf=5",19.674,0.606731
+FD002 dataset-wide,Summary statistics,XGBoost,"max_depth=7, learning_rate=0.05",19.5846,0.653624
+FD002 per-condition,Raw sensors,Random Forest,"max_features=sqrt, min_samples_leaf=5",19.6272,0.69363
+FD002 per-condition,Raw sensors,XGBoost,"max_depth=5, learning_rate=0.05",19.6245,0.750029
+FD002 per-condition,Summary statistics,Random Forest,"max_features=sqrt, min_samples_leaf=5",19.3437,1.00885
+FD002 per-condition,Summary statistics,XGBoost,"max_depth=5, learning_rate=0.05",19.0432,1.02802

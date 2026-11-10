@@ -1,0 +1,7 @@
+data,representation,sensors,features,train_rows,test_rows,test_engines,test_engines_shorter_than_window
+FD001,Raw sensors,15,15,20631,13096,100,0
+FD001,Summary statistics,15,45,20631,13096,100,0
+FD002 dataset-wide,Raw sensors,21,21,53759,33991,259,0
+FD002 dataset-wide,Summary statistics,21,63,53759,33991,259,6
+FD002 per-condition,Raw sensors,17,17,53759,33991,259,0
+FD002 per-condition,Summary statistics,17,51,53759,33991,259,6

@@ -1,0 +1,13 @@
+data,representation,scoring,cv_precision,cv_recall,cv_f1,test_precision,test_recall,test_f1,cv_anomalous_percent,test_anomalous_percent
+FD001,Raw sensors,all cycles,0.439,0.997,0.61,0.193,0.985,0.323,15.026,2.535
+FD001,Summary statistics,all cycles,0.43,0.997,0.601,0.181,1,0.307,15.026,2.535
+FD002 dataset-wide,Raw sensors,all cycles,0.491,0.797,0.607,0.199,0.747,0.315,14.993,3.198
+FD002 dataset-wide,Summary statistics,all cycles,0.215,0.074,0.11,0.063,0.078,0.07,14.993,3.198
+FD002 per-condition,Raw sensors,all cycles,0.466,0.978,0.631,0.196,0.959,0.325,14.993,3.198
+FD002 per-condition,Summary statistics,all cycles,0.448,0.987,0.617,0.187,0.969,0.313,14.993,3.198
+FD001,Raw sensors,healthy vs near failure,0.873,0.997,0.931,0.459,0.985,0.626,27.602,3.965
+FD001,Summary statistics,healthy vs near failure,0.885,0.997,0.937,0.476,1,0.645,27.602,3.965
+FD002 dataset-wide,Raw sensors,healthy vs near failure,0.853,0.797,0.824,0.463,0.747,0.572,27.491,4.989
+FD002 dataset-wide,Summary statistics,healthy vs near failure,0.458,0.074,0.127,0.109,0.078,0.091,27.491,4.989
+FD002 per-condition,Raw sensors,healthy vs near failure,0.878,0.978,0.925,0.518,0.959,0.672,27.491,4.989
+FD002 per-condition,Summary statistics,healthy vs near failure,0.908,0.987,0.946,0.652,0.969,0.779,27.491,4.989

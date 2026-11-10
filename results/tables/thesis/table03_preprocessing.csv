@@ -1,0 +1,4 @@
+data,sensors_retained,sensors_dropped,train_rows,train_rows_at_cap_percent,test_rows,test_engines,test_engines_true_rul_above_cap
+FD001,15,"s1, s5, s10, s16, s18, s19",20631,39.4,13096,100,11
+FD002 dataset-wide,21,none,53759,39.5,33991,259,57
+FD002 per-condition,17,"s1, s5, s18, s19",53759,39.5,33991,259,57

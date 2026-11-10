@@ -1,0 +1,4 @@
+data,healthy_cycles_before_30,healthy_cycles_from_30,flagged_percent_before_30,flagged_percent_from_30
+FD001,2802,5329,14.847,0.54419
+FD002 dataset-wide,7300,13959,14.493,0.16477
+FD002 per-condition,7300,13959,13.932,0.37968

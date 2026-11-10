@@ -1,0 +1,13 @@
+data,representation,model,engines_above_cap,mean_true_rul,mean_predicted_rul,lowest_predicted_rul
+FD001,Raw sensors,Random Forest,11,134.727,114.076,98.898
+FD001,Raw sensors,XGBoost,11,134.727,114.713,100.363
+FD001,Summary statistics,Random Forest,11,134.727,112.617,98.8322
+FD001,Summary statistics,XGBoost,11,134.727,111.138,95.3603
+FD002 dataset-wide,Raw sensors,Random Forest,57,159.053,110.739,89.0444
+FD002 dataset-wide,Raw sensors,XGBoost,57,159.053,111.214,93.7701
+FD002 dataset-wide,Summary statistics,Random Forest,57,159.053,109.622,87.2501
+FD002 dataset-wide,Summary statistics,XGBoost,57,159.053,110.949,93.6087
+FD002 per-condition,Raw sensors,Random Forest,57,159.053,110.47,82.2214
+FD002 per-condition,Raw sensors,XGBoost,57,159.053,110.713,82.4366
+FD002 per-condition,Summary statistics,Random Forest,57,159.053,110.436,72.018
+FD002 per-condition,Summary statistics,XGBoost,57,159.053,110.774,66.3269

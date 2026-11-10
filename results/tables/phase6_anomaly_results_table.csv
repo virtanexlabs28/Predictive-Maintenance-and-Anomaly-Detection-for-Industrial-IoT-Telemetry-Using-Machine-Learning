@@ -1,0 +1,25 @@
+data,representation,evaluation,scoring,alarm_budget,precision,recall,f1,tp,fp,fn,cycles,anomalous_share_percent,flagged_share_percent
+FD001,Raw sensors,Cross-validation,all cycles,0.05,0.439,0.997,0.61,3092,3952,8,20631,15.026,34.143
+FD001,Raw sensors,Cross-validation,healthy vs near failure,0.05,0.873,0.997,0.931,3092,449,8,11231,27.602,31.529
+FD001,Raw sensors,Test,all cycles,0.05,0.193,0.985,0.323,327,1365,5,13096,2.535,12.92
+FD001,Raw sensors,Test,healthy vs near failure,0.05,0.459,0.985,0.626,327,386,5,8373,3.965,8.516
+FD001,Summary statistics,Cross-validation,all cycles,0.05,0.43,0.997,0.601,3090,4098,10,20631,15.026,34.841
+FD001,Summary statistics,Cross-validation,healthy vs near failure,0.05,0.885,0.997,0.937,3090,403,10,11231,27.602,31.101
+FD001,Summary statistics,Test,all cycles,0.05,0.181,1,0.307,332,1500,0,13096,2.535,13.989
+FD001,Summary statistics,Test,healthy vs near failure,0.05,0.476,1,0.645,332,366,0,8373,3.965,8.336
+"FD002, dataset-wide normalisation",Raw sensors,Cross-validation,all cycles,0.05,0.491,0.797,0.607,6424,6667,1636,53759,14.993,24.351
+"FD002, dataset-wide normalisation",Raw sensors,Cross-validation,healthy vs near failure,0.05,0.853,0.797,0.824,6424,1109,1636,29319,27.491,25.693
+"FD002, dataset-wide normalisation",Raw sensors,Test,all cycles,0.05,0.199,0.747,0.315,812,3263,275,33991,3.198,11.988
+"FD002, dataset-wide normalisation",Raw sensors,Test,healthy vs near failure,0.05,0.463,0.747,0.572,812,941,275,21789,4.989,8.045
+"FD002, dataset-wide normalisation",Summary statistics,Cross-validation,all cycles,0.05,0.215,0.074,0.11,594,2170,7466,53759,14.993,5.142
+"FD002, dataset-wide normalisation",Summary statistics,Cross-validation,healthy vs near failure,0.05,0.458,0.074,0.127,594,703,7466,29319,27.491,4.424
+"FD002, dataset-wide normalisation",Summary statistics,Test,all cycles,0.05,0.063,0.078,0.07,85,1265,1002,33991,3.198,3.972
+"FD002, dataset-wide normalisation",Summary statistics,Test,healthy vs near failure,0.05,0.109,0.078,0.091,85,694,1002,21789,4.989,3.575
+"FD002, per-condition normalisation",Raw sensors,Cross-validation,all cycles,0.05,0.466,0.978,0.631,7882,9037,178,53759,14.993,31.472
+"FD002, per-condition normalisation",Raw sensors,Cross-validation,healthy vs near failure,0.05,0.878,0.978,0.925,7882,1096,178,29319,27.491,30.622
+"FD002, per-condition normalisation",Raw sensors,Test,all cycles,0.05,0.196,0.959,0.325,1042,4286,45,33991,3.198,15.675
+"FD002, per-condition normalisation",Raw sensors,Test,healthy vs near failure,0.05,0.518,0.959,0.672,1042,971,45,21789,4.989,9.239
+"FD002, per-condition normalisation",Summary statistics,Cross-validation,all cycles,0.05,0.448,0.987,0.617,7953,9782,107,53759,14.993,32.99
+"FD002, per-condition normalisation",Summary statistics,Cross-validation,healthy vs near failure,0.05,0.908,0.987,0.946,7953,806,107,29319,27.491,29.875
+"FD002, per-condition normalisation",Summary statistics,Test,all cycles,0.05,0.187,0.969,0.313,1053,4589,34,33991,3.198,16.599
+"FD002, per-condition normalisation",Summary statistics,Test,healthy vs near failure,0.05,0.652,0.969,0.779,1053,563,34,21789,4.989,7.417

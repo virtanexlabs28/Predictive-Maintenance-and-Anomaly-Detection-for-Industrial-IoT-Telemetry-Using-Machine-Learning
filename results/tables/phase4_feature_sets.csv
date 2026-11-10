@@ -1,0 +1,7 @@
+subset,scheme,representation,sensors,features,train_rows,test_rows,test_engines,test_engines_shorter_than_window
+FD001,global,raw,15,15,20631,13096,100,0
+FD001,global,summary,15,45,20631,13096,100,0
+FD002,global,raw,21,21,53759,33991,259,0
+FD002,global,summary,21,63,53759,33991,259,6
+FD002,condition,raw,17,17,53759,33991,259,0
+FD002,condition,summary,17,51,53759,33991,259,6

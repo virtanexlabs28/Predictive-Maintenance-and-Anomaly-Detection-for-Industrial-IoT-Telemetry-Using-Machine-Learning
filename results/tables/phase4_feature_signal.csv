@@ -1,0 +1,10 @@
+subset,scheme,statistic,features,median_abs_spearman,max_abs_spearman,strongest_feature
+FD001,global,last,15,0.635337,0.719903,s11_last
+FD001,global,mean,15,0.707439,0.728583,s17_mean
+FD001,global,std,15,0.319775,0.486024,s14_std
+FD002,global,last,21,0.0778115,0.250363,s13_last
+FD002,global,mean,21,0.0476813,0.25205,s16_mean
+FD002,global,std,21,0.0716959,0.272137,s16_std
+FD002,condition,last,17,0.454388,0.715043,s11_last
+FD002,condition,mean,17,0.687531,0.74117,s17_mean
+FD002,condition,std,17,0.257723,0.46899,s16_std

@@ -1,0 +1,13 @@
+data,representation,model,best,worst,range
+FD001,Raw sensors,Random Forest,18.5361,18.8398,0.3037
+FD001,Raw sensors,XGBoost,18.6504,19.2545,0.6041
+FD001,Summary statistics,Random Forest,17.3184,17.9284,0.61
+FD001,Summary statistics,XGBoost,17.1058,17.5629,0.4571
+FD002 dataset-wide,Raw sensors,Random Forest,19.5253,19.9493,0.424
+FD002 dataset-wide,Raw sensors,XGBoost,19.695,20.424,0.729
+FD002 dataset-wide,Summary statistics,Random Forest,19.674,20.777,1.103
+FD002 dataset-wide,Summary statistics,XGBoost,19.5846,20.5087,0.9241
+FD002 per-condition,Raw sensors,Random Forest,19.6272,19.8204,0.1932
+FD002 per-condition,Raw sensors,XGBoost,19.6245,19.9414,0.3169
+FD002 per-condition,Summary statistics,Random Forest,19.3437,19.5266,0.1829
+FD002 per-condition,Summary statistics,XGBoost,19.0432,19.7386,0.6954

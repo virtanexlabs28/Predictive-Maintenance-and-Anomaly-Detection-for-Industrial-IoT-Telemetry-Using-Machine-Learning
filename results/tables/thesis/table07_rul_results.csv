@@ -1,0 +1,13 @@
+data,representation,model,n_features,cv_rmse,test_mae,test_rmse,test_rmse_95ci,test_r2,test_mae_uncapped,test_rmse_uncapped,test_r2_uncapped
+FD001,Raw sensors,Random Forest,15,18.54 +/- 0.73,11.828,16.856,13.68 to 19.82,0.823,12.898,17.864,0.815
+FD001,Raw sensors,XGBoost,15,18.65 +/- 0.67,11.764,16.991,13.72 to 20.11,0.82,12.834,17.955,0.813
+FD001,Summary statistics,Random Forest,45,17.32 +/- 0.60,11.907,16.409,13.48 to 19.35,0.832,12.977,17.535,0.822
+FD001,Summary statistics,XGBoost,45,17.11 +/- 0.90,11.593,15.829,13.03 to 18.66,0.844,12.663,17.096,0.831
+FD002 dataset-wide,Raw sensors,Random Forest,21,19.53 +/- 0.72,12.946,17.008,15.27 to 18.71,0.843,20.44,29.157,0.706
+FD002 dataset-wide,Raw sensors,XGBoost,21,19.70 +/- 0.78,12.972,17.185,15.38 to 19.01,0.84,20.466,29.062,0.708
+FD002 dataset-wide,Summary statistics,Random Forest,63,19.67 +/- 0.61,13.263,17.396,15.66 to 19.14,0.836,20.757,29.675,0.696
+FD002 dataset-wide,Summary statistics,XGBoost,63,19.58 +/- 0.65,13.09,16.918,15.34 to 18.57,0.845,20.549,28.994,0.709
+FD002 per-condition,Raw sensors,Random Forest,17,19.63 +/- 0.69,13.003,17.536,15.55 to 19.62,0.833,20.497,29.503,0.699
+FD002 per-condition,Raw sensors,XGBoost,17,19.62 +/- 0.75,13.224,17.734,15.81 to 19.80,0.829,20.711,29.568,0.698
+FD002 per-condition,Summary statistics,Random Forest,51,19.34 +/- 1.01,12.632,16.811,15.12 to 18.52,0.847,20.126,29.382,0.702
+FD002 per-condition,Summary statistics,XGBoost,51,19.04 +/- 1.03,11.548,15.855,14.10 to 17.58,0.864,19.035,28.734,0.715

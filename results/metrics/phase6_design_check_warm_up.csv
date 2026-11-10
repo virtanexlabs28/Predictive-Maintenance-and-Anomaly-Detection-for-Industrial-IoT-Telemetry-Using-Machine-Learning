@@ -1,0 +1,4 @@
+subset,scheme,healthy_cycles_before_30,flagged_share_before_30,healthy_cycles_from_30,flagged_share_from_30
+FD001,global,2802,0.14847,5329,0.0054419
+FD002,global,7300,0.14493,13959,0.0016477
+FD002,condition,7300,0.13932,13959,0.0037968

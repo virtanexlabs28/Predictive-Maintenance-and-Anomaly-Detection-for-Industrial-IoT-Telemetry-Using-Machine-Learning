@@ -1,0 +1,38 @@
+{
+  "saxena2008": {
+    "ieee": "A. Saxena, K. Goebel, D. Simon, and N. Eklund, \"Damage propagation modeling for aircraft engine run-to-failure simulation,\" in *Proc. 2008 Int. Conf. Prognostics and Health Management (PHM)*, Denver, CO, USA, Oct. 2008, pp. 1–9, doi: 10.1109/PHM.2008.4711414.",
+    "verified": "Metadata: Crossref (DOI) on 2026-11-10. Content: full text read from the PDF distributed with the dataset (pages 2 to 7)."
+  },
+  "nasa2008": {
+    "ieee": "A. Saxena and K. Goebel, \"Turbofan engine degradation simulation data set,\" NASA Prognostics Data Repository, NASA Ames Research Center, Moffett Field, CA, USA, 2008. [Online]. Available: https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/ (accessed Nov. 10, 2026).",
+    "verified": "Citation text taken from the NASA repository page on 2026-11-10. Content: dataset readme read in full."
+  },
+  "breiman2001": {
+    "ieee": "L. Breiman, \"Random forests,\" *Machine Learning*, vol. 45, no. 1, pp. 5–32, Oct. 2001, doi: 10.1023/A:1010933404324.",
+    "verified": "Metadata: Crossref (DOI) on 2026-11-10. Content: general description of the method only."
+  },
+  "chen2016": {
+    "ieee": "T. Chen and C. Guestrin, \"XGBoost: A scalable tree boosting system,\" in *Proc. 22nd ACM SIGKDD Int. Conf. Knowledge Discovery and Data Mining (KDD '16)*, Aug. 2016, pp. 785–794, doi: 10.1145/2939672.2939785.",
+    "verified": "Metadata: Crossref (DOI) on 2026-11-10. Content: general description of the method only."
+  },
+  "liu2008": {
+    "ieee": "F. T. Liu, K. M. Ting, and Z.-H. Zhou, \"Isolation forest,\" in *Proc. 8th IEEE Int. Conf. Data Mining (ICDM)*, Dec. 2008, pp. 413–422, doi: 10.1109/ICDM.2008.17.",
+    "verified": "Metadata: Crossref (DOI) on 2026-11-10. Content: general description of the method only."
+  },
+  "pedregosa2011": {
+    "ieee": "F. Pedregosa *et al.*, \"Scikit-learn: Machine learning in Python,\" *J. Mach. Learn. Res.*, vol. 12, pp. 2825–2830, 2011.",
+    "verified": "Metadata: journal web page (jmlr.org/papers/v12/pedregosa11a.html) on 2026-11-10."
+  },
+  "kaufman2012": {
+    "ieee": "S. Kaufman, S. Rosset, C. Perlich, and O. Stitelman, \"Leakage in data mining: Formulation, detection, and avoidance,\" *ACM Trans. Knowl. Discovery Data*, vol. 6, no. 4, Art. no. 15, Dec. 2012, doi: 10.1145/2382577.2382579.",
+    "verified": "Metadata: Crossref (DOI) and a university research-portal record on 2026-11-10. Content: abstract only."
+  },
+  "efron1979": {
+    "ieee": "B. Efron, \"Bootstrap methods: Another look at the jackknife,\" *Ann. Statist.*, vol. 7, no. 1, pp. 1–26, Jan. 1979, doi: 10.1214/aos/1176344552.",
+    "verified": "Metadata: Crossref (DOI) on 2026-11-10. Content: cited as the origin of the bootstrap only."
+  },
+  "laredo2019": {
+    "ieee": "D. Laredo, Z. Chen, O. Schütze, and J.-Q. Sun, \"A neural network-evolutionary computational framework for remaining useful life estimation of mechanical systems,\" *Neural Networks*, vol. 116, pp. 178–187, Aug. 2019, doi: 10.1016/j.neunet.2019.04.016.",
+    "verified": "Metadata: Crossref (title search) on 2026-11-10. Content: statements checked against the arXiv preprint (arXiv:1905.05918), which may differ in wording from the journal version."
+  }
+}

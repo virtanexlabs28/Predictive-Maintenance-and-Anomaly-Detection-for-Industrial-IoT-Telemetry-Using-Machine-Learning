@@ -1,0 +1,7 @@
+data,representation,precision_1pct,precision_5pct,precision_10pct,recall_1pct,recall_5pct,recall_10pct,f1_1pct,f1_5pct,f1_10pct
+FD001,Raw sensors,0.341,0.193,0.136,0.949,0.985,0.994,0.502,0.323,0.24
+FD001,Summary statistics,0.295,0.181,0.139,0.982,1,1,0.454,0.307,0.243
+FD002 dataset-wide,Raw sensors,0.301,0.199,0.151,0.54,0.747,0.851,0.386,0.315,0.256
+FD002 dataset-wide,Summary statistics,0.049,0.063,0.06,0.011,0.078,0.152,0.018,0.07,0.086
+FD002 per-condition,Raw sensors,0.318,0.196,0.146,0.915,0.959,0.972,0.472,0.325,0.254
+FD002 per-condition,Summary statistics,0.255,0.187,0.154,0.956,0.969,0.975,0.402,0.313,0.266

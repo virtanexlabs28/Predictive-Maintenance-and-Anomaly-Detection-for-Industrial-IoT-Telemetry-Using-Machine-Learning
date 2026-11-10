@@ -1,0 +1,5 @@
+subset,split,rows,missing_values,non_finite_values,duplicate_rows,duplicate_unit_cycle,repeated_measurement_rows
+FD001,train,20631,0,0,0,0,0
+FD001,test,13096,0,0,0,0,0
+FD002,train,53759,0,0,0,0,0
+FD002,test,33991,0,0,0,0,0

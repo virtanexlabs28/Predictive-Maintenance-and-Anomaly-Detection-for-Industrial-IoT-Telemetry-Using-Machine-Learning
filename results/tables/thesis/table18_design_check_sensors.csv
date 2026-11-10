@@ -1,0 +1,13 @@
+data,representation,inputs,precision,recall,f1
+FD001,Raw sensors,all retained sensors,0.43896,0.99742,0.60962
+FD001,Raw sensors,"without s6, s10, s16",0.40556,0.99806,0.57675
+FD001,Summary statistics,all retained sensors,0.42988,0.99677,0.6007
+FD001,Summary statistics,"without s6, s10, s16",0.40047,0.99871,0.57169
+FD002 dataset-wide,Raw sensors,all retained sensors,0.49072,0.79702,0.60744
+FD002 dataset-wide,Raw sensors,"without s6, s10, s16",0.50925,0.73102,0.60031
+FD002 dataset-wide,Summary statistics,all retained sensors,0.21491,0.073697,0.10976
+FD002 dataset-wide,Summary statistics,"without s6, s10, s16",0.21961,0.07531,0.11216
+FD002 per-condition,Raw sensors,all retained sensors,0.46587,0.97792,0.63109
+FD002 per-condition,Raw sensors,"without s6, s10, s16",0.45595,0.983,0.62295
+FD002 per-condition,Summary statistics,all retained sensors,0.44844,0.98672,0.61663
+FD002 per-condition,Summary statistics,"without s6, s10, s16",0.43123,0.98995,0.60076

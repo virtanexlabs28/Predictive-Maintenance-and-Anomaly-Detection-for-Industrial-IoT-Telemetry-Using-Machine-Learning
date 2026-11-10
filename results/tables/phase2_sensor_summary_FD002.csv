@@ -1,0 +1,25 @@
+subset,column,symbol,description,unit,mean,std,min,max,n_unique,constant,constant_within_condition,spearman_vs_remaining,variance_from_condition,spearman_within_condition
+FD002,setting_1,,Operational setting,,23.9984,14.7474,0,42.008,536,False,False,0.00196353,1,0.00101769
+FD002,setting_2,,Operational setting,,0.572056,0.310016,0,0.842,105,False,False,0.00190704,0.999996,0.00236491
+FD002,setting_3,,Operational setting,,94.046,14.2377,60,100,2,False,True,0.0043265,1,
+FD002,s1,T2,Total temperature at fan inlet,deg R,472.91,26.3897,445,518.67,6,False,True,-0.00201504,1,
+FD002,s2,T24,Total temperature at LPC outlet,deg R,579.672,37.2894,535.53,644.52,1590,False,False,-0.102189,0.999858,-0.589484
+FD002,s3,T30,Total temperature at HPC outlet,deg R,1419.97,105.946,1243.73,1612.88,12305,False,False,-0.115798,0.997119,-0.574688
+FD002,s4,T50,Total temperature at LPT outlet,deg R,1205.44,119.123,1023.77,1439.23,15411,False,False,-0.165202,0.99566,-0.681986
+FD002,s5,P2,Pressure at fan inlet,psia,8.03199,3.61384,3.91,14.62,6,False,True,-0.00172629,1,
+FD002,s6,P15,Total pressure in bypass-duct,psia,11.6007,5.4318,5.71,21.61,14,False,False,-0.046396,0.999999,-0.355671
+FD002,s7,P30,Total pressure at HPC outlet,psia,282.607,146.005,136.8,555.82,2067,False,False,0.0770434,0.999984,0.487436
+FD002,s8,Nf,Physical fan speed,rpm,2228.88,145.21,1914.77,2388.39,897,False,False,-0.055765,0.999998,-0.305475
+FD002,s9,Nc,Physical core speed,rpm,8525.2,335.812,7985.56,9215.66,22434,False,False,-0.0653369,0.997303,-0.283935
+FD002,s10,epr,Engine pressure ratio (P50/P2),-,1.09496,0.127469,0.93,1.3,9,False,False,0.00561231,0.999758,0.0719358
+FD002,s11,Ps30,Static pressure at HPC outlet,psia,42.9852,3.23237,36.23,48.51,681,False,False,-0.16981,0.994523,-0.713512
+FD002,s12,phi,Ratio of fuel flow to Ps30,pps/psi,266.069,137.66,129.12,523.37,1672,False,False,0.080737,0.999988,0.511354
+FD002,s13,NRf,Corrected fan speed,rpm,2334.56,128.068,2027.61,2390.48,514,False,False,-0.246822,0.999997,-0.303131
+FD002,s14,NRc,Corrected core speed,rpm,8066.6,84.8379,7848.36,8268.5,14905,False,False,-0.074443,0.966232,-0.154887
+FD002,s15,BPR,Bypass ratio,-,9.32965,0.749335,8.3357,11.0669,8464,False,False,-0.160961,0.997327,-0.671273
+FD002,s16,farB,Burner fuel-air ratio,-,0.023326,0.00471147,0.02,0.03,2,False,False,-0.0778413,0.885426,-0.191257
+FD002,s17,htBleed,Bleed enthalpy,-,348.31,27.7545,303,399,53,False,False,-0.118667,0.997345,-0.598924
+FD002,s18,Nf_dmd,Demanded fan speed,rpm,2228.81,145.328,1915,2388,6,False,True,0.000721183,1,
+FD002,s19,PCNfR_dmd,Demanded corrected fan speed,rpm,97.7568,5.36407,84.93,100,2,False,True,0.0043265,1,
+FD002,s20,W31,HPT coolant bleed,lbm/s,20.7893,9.86933,10.18,39.34,510,False,False,0.0734939,0.999822,0.462334
+FD002,s21,W32,LPT coolant bleed,lbm/s,12.4734,5.92162,6.0105,23.5901,17837,False,False,0.0724729,0.999826,0.455882

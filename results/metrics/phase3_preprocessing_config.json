@@ -1,0 +1,114 @@
+{
+  "rul_cap": 125,
+  "rul_definition": "train: last cycle of unit - cycle; test: (last observed cycle - cycle) + NASA RUL value; both clipped at rul_cap",
+  "sensor_removal_rule": "one unique value in the training data within every normalisation group",
+  "scaling": "z-score, population standard deviation, fitted on training engines only",
+  "condition_rule": "round setting_1 to 0 dp, setting_2 to 2 dp, setting_3 to 0 dp",
+  "runs": [
+    {
+      "subset": "FD001",
+      "scheme": "global",
+      "sensors_retained": [
+        "s2",
+        "s3",
+        "s4",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s17",
+        "s20",
+        "s21"
+      ],
+      "sensors_dropped": [
+        "s1",
+        "s5",
+        "s10",
+        "s16",
+        "s18",
+        "s19"
+      ],
+      "operating_conditions": [
+        "0 / 0.00 / 100"
+      ]
+    },
+    {
+      "subset": "FD002",
+      "scheme": "global",
+      "sensors_retained": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s16",
+        "s17",
+        "s18",
+        "s19",
+        "s20",
+        "s21"
+      ],
+      "sensors_dropped": [],
+      "operating_conditions": [
+        "0 / 0.00 / 100",
+        "10 / 0.25 / 100",
+        "20 / 0.70 / 100",
+        "25 / 0.62 / 60",
+        "35 / 0.84 / 100",
+        "42 / 0.84 / 100"
+      ]
+    },
+    {
+      "subset": "FD002",
+      "scheme": "condition",
+      "sensors_retained": [
+        "s2",
+        "s3",
+        "s4",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15",
+        "s16",
+        "s17",
+        "s20",
+        "s21"
+      ],
+      "sensors_dropped": [
+        "s1",
+        "s5",
+        "s18",
+        "s19"
+      ],
+      "operating_conditions": [
+        "0 / 0.00 / 100",
+        "10 / 0.25 / 100",
+        "20 / 0.70 / 100",
+        "25 / 0.62 / 60",
+        "35 / 0.84 / 100",
+        "42 / 0.84 / 100"
+      ]
+    }
+  ]
+}

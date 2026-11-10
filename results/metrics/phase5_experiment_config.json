@@ -1,0 +1,49 @@
+{
+  "seed": 42,
+  "cv": "GroupKFold by engine, 5 folds, preprocessing refitted on the training folds",
+  "selection_rule": "lowest mean cross-validated RMSE on the capped RUL, all cycles of validation engines",
+  "target": "RUL capped at 125",
+  "test_protocol": "one prediction per test engine at its last observed cycle",
+  "summary_window": 30,
+  "fixed_params": {
+    "random_forest": {
+      "n_estimators": 200,
+      "n_jobs": -1,
+      "random_state": 42
+    },
+    "xgboost": {
+      "n_estimators": 300,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "tree_method": "hist",
+      "objective": "reg:squarederror",
+      "n_jobs": -1,
+      "random_state": 42
+    }
+  },
+  "param_grids": {
+    "random_forest": {
+      "max_features": [
+        "sqrt",
+        0.33
+      ],
+      "min_samples_leaf": [
+        5,
+        20,
+        50
+      ]
+    },
+    "xgboost": {
+      "max_depth": [
+        3,
+        5,
+        7
+      ],
+      "learning_rate": [
+        0.05,
+        0.1
+      ]
+    }
+  },
+  "total_minutes": 16.2
+}

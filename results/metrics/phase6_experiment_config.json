@@ -1,0 +1,31 @@
+{
+  "seed": 42,
+  "isolation_forest": {
+    "n_estimators": 200,
+    "max_samples": 256,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "healthy_definition": "training-engine cycles with RUL >= 125",
+  "reference_label": "anomalous if RUL <= 30",
+  "alarm_budget_main": 0.05,
+  "alarm_budgets_reported": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "threshold_rule": "quantile of the anomaly scores of the healthy training cycles; no labels used",
+  "cv": "GroupKFold by engine, 5 folds, preprocessing and detector refitted on the training folds",
+  "scorings": {
+    "all cycles": [
+      "healthy",
+      "transition",
+      "near_failure"
+    ],
+    "healthy vs near failure": [
+      "healthy",
+      "near_failure"
+    ]
+  },
+  "total_seconds": 104.9
+}

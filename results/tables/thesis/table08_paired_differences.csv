@@ -1,0 +1,17 @@
+comparison,context,A,B,rmse_A,rmse_B,difference_B_minus_A,ci_low,ci_high,interval_excludes_zero
+model,FD001; raw sensors,Random Forest,XGBoost,16.8564,16.9909,0.134552,-0.572636,0.792654,False
+model,FD001; summary statistics,Random Forest,XGBoost,16.4087,15.8285,-0.580197,-1.85836,0.613773,False
+model,"FD002, dataset-wide normalisation; raw sensors",Random Forest,XGBoost,17.0079,17.1847,0.176716,-0.227999,0.577408,False
+model,"FD002, dataset-wide normalisation; summary statistics",Random Forest,XGBoost,17.3963,16.9176,-0.478651,-1.13565,0.209631,False
+model,"FD002, per-condition normalisation; raw sensors",Random Forest,XGBoost,17.5364,17.7341,0.197766,-0.218763,0.672984,False
+model,"FD002, per-condition normalisation; summary statistics",Random Forest,XGBoost,16.8112,15.8546,-0.956621,-1.69027,-0.312431,True
+representation,FD001; Random Forest,Raw sensors,Summary statistics,16.8564,16.4087,-0.447656,-1.82122,1.10472,False
+representation,FD001; XGBoost,Raw sensors,Summary statistics,16.9909,15.8285,-1.1624,-3.66812,1.32105,False
+representation,"FD002, dataset-wide normalisation; Random Forest",Raw sensors,Summary statistics,17.0079,17.3963,0.388345,-0.111442,0.910726,False
+representation,"FD002, dataset-wide normalisation; XGBoost",Raw sensors,Summary statistics,17.1847,16.9176,-0.267022,-0.907798,0.40054,False
+representation,"FD002, per-condition normalisation; Random Forest",Raw sensors,Summary statistics,17.5364,16.8112,-0.725155,-1.90545,0.424641,False
+representation,"FD002, per-condition normalisation; XGBoost",Raw sensors,Summary statistics,17.7341,15.8546,-1.87954,-3.42593,-0.40327,True
+normalisation,FD002; raw sensors; Random Forest,Dataset-wide,Per-condition,17.0079,17.5364,0.528438,-0.0592228,1.16353,False
+normalisation,FD002; raw sensors; XGBoost,Dataset-wide,Per-condition,17.1847,17.7341,0.549488,-0.0504817,1.15566,False
+normalisation,FD002; summary statistics; Random Forest,Dataset-wide,Per-condition,17.3963,16.8112,-0.585062,-1.59889,0.43629,False
+normalisation,FD002; summary statistics; XGBoost,Dataset-wide,Per-condition,16.9176,15.8546,-1.06303,-2.44038,0.39419,False

@@ -1,0 +1,4 @@
+model,task,fixed_settings,tuned_settings,selection
+Random Forest,RUL prediction,"n_estimators=200, random_state=42","max_features in ['sqrt', 0.33]; min_samples_leaf in [5, 20, 50]",lowest mean RMSE in 5-fold engine-level cross-validation
+XGBoost,RUL prediction,"n_estimators=300, subsample=0.8, colsample_bytree=0.8, tree_method=hist, objective=reg:squarederror, random_state=42","max_depth in [3, 5, 7]; learning_rate in [0.05, 0.1]",lowest mean RMSE in 5-fold engine-level cross-validation
+Isolation Forest,Anomaly detection,"n_estimators=200, max_samples=256, random_state=42",none,alarm threshold at a 5% budget on healthy training cycles

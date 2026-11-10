@@ -1,0 +1,29 @@
+task,model,features,metric,FD001,FD002 dataset-wide,FD002 per-condition
+RUL prediction,Random Forest,Raw sensors,"Test RMSE, capped target",16.8564,17.0079,17.5363
+RUL prediction,Random Forest,Raw sensors,"Test RMSE, uncapped target",17.8636,29.1574,29.5031
+RUL prediction,Random Forest,Raw sensors,"Test MAE, capped target",11.8279,12.9462,13.0028
+RUL prediction,Random Forest,Raw sensors,"Test R2, capped target",0.823063,0.84311,0.83321
+RUL prediction,Random Forest,Raw sensors,Cross-validated RMSE,18.5361,19.5253,19.6272
+RUL prediction,Random Forest,Summary statistics,"Test RMSE, capped target",16.4087,17.3963,16.8112
+RUL prediction,Random Forest,Summary statistics,"Test RMSE, uncapped target",17.5354,29.6752,29.382
+RUL prediction,Random Forest,Summary statistics,"Test MAE, capped target",11.9071,13.2631,12.6321
+RUL prediction,Random Forest,Summary statistics,"Test R2, capped target",0.832336,0.835864,0.846719
+RUL prediction,Random Forest,Summary statistics,Cross-validated RMSE,17.3184,19.674,19.3437
+RUL prediction,XGBoost,Raw sensors,"Test RMSE, capped target",16.991,17.1846,17.7342
+RUL prediction,XGBoost,Raw sensors,"Test RMSE, uncapped target",17.9546,29.0618,29.5685
+RUL prediction,XGBoost,Raw sensors,"Test MAE, capped target",11.7635,12.972,13.2241
+RUL prediction,XGBoost,Raw sensors,"Test R2, capped target",0.820226,0.839833,0.829427
+RUL prediction,XGBoost,Raw sensors,Cross-validated RMSE,18.6504,19.695,19.6245
+RUL prediction,XGBoost,Summary statistics,"Test RMSE, capped target",15.8286,16.9176,15.8546
+RUL prediction,XGBoost,Summary statistics,"Test RMSE, uncapped target",17.0964,28.9939,28.7345
+RUL prediction,XGBoost,Summary statistics,"Test MAE, capped target",11.5934,13.0904,11.5478
+RUL prediction,XGBoost,Summary statistics,"Test R2, capped target",0.843983,0.844772,0.863667
+RUL prediction,XGBoost,Summary statistics,Cross-validated RMSE,17.1058,19.5846,19.0432
+Anomaly detection,Isolation Forest,Raw sensors,Test recall,0.98494,0.74701,0.9586
+Anomaly detection,Isolation Forest,Raw sensors,"Test precision, all cycles",0.19326,0.19926,0.19557
+Anomaly detection,Isolation Forest,Raw sensors,"Test F1, all cycles",0.32312,0.31461,0.32486
+Anomaly detection,Isolation Forest,Raw sensors,"Test F1, healthy vs near failure",0.62584,0.57183,0.67226
+Anomaly detection,Isolation Forest,Summary statistics,Test recall,1,0.078197,0.96872
+Anomaly detection,Isolation Forest,Summary statistics,"Test precision, all cycles",0.18122,0.062963,0.18664
+Anomaly detection,Isolation Forest,Summary statistics,"Test F1, all cycles",0.30684,0.069758,0.31297
+Anomaly detection,Isolation Forest,Summary statistics,"Test F1, healthy vs near failure",0.64466,0.091104,0.77913
